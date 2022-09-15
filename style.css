@@ -371,16 +371,13 @@ template {
 [hidden] {
   display: none; }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: 'Noto Sans KR', sans-serif; }
-
 html {
-  font-family: 'Noto Sans KR', sans-serif; }
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px; }
 
 body {
-  font-family: 'Noto Sans KR', sans-serif; }
+  font-family: "Noto Sans KR", sans-serif;
+  color: #3f4150; }
 
 h1 {
   margin: 0; }
@@ -411,9 +408,78 @@ ol {
   list-style: none;
   padding-left: 0; }
 
-p {
-  color: orange;
-  display: block; }
+.container {
+  width: 100%;
+  padding: 0 5px;
+  margin: 0 auto; }
+  .container .row {
+    display: flex;
+    flex-wrap: wrap; }
+  .container [class^='col-'] {
+    padding: 0 10px; }
+  .container .col-sm-1 {
+    width: 25%; }
+  .container .col-sm-2 {
+    width: 50%; }
+  .container .col-sm-3 {
+    width: 75%; }
+  .container .col-sm-4 {
+    width: 100%; }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 1020px;
+      padding: 0 30px; }
+      .container .col-sm-1 {
+        width: 8.33333%; }
+      .container .col-sm-2 {
+        width: 16.66667%; }
+      .container .col-sm-3 {
+        width: 25%; }
+      .container .col-sm-4 {
+        width: 33.33333%; }
+      .container .col-sm-5 {
+        width: 41.66667%; }
+      .container .col-sm-6 {
+        width: 50%; }
+      .container .col-sm-7 {
+        width: 58.33333%; }
+      .container .col-sm-8 {
+        width: 66.66667%; }
+      .container .col-sm-9 {
+        width: 75%; }
+      .container .col-sm-10 {
+        width: 83.33333%; }
+      .container .col-sm-11 {
+        width: 91.66667%; }
+      .container .col-sm-12 {
+        width: 100%; } }
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+      padding: 0; }
+      .container .col-sm-1 {
+        width: 95px; }
+      .container .col-sm-2 {
+        width: 190px; }
+      .container .col-sm-3 {
+        width: 285px; }
+      .container .col-sm-4 {
+        width: 380px; }
+      .container .col-sm-5 {
+        width: 475px; }
+      .container .col-sm-6 {
+        width: 570px; }
+      .container .col-sm-7 {
+        width: 665px; }
+      .container .col-sm-8 {
+        width: 760px; }
+      .container .col-sm-9 {
+        width: 855px; }
+      .container .col-sm-10 {
+        width: 950px; }
+      .container .col-sm-11 {
+        width: 1045px; }
+      .container .col-sm-12 {
+        width: 1140px; } }
 
-* {
-  font-family: 'Noto Sans KR', sans-serif; }
+/*# sourceMappingURL=style.css.map */
