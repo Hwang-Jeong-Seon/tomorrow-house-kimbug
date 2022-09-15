@@ -1,0 +1,22 @@
+{
+  "name": "tomorrow-house-kimbug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass" : "node-sass",
+    "sass": "node-sass styles/main.scss ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hwang-Jeong-Seon/tomorrow-house-kimbug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hwang-Jeong-Seon/tomorrow-house-kimbug/issues"
+  },
+  "homepage": "https://github.com/Hwang-Jeong-Seon/tomorrow-house-kimbug#readme"
+}
